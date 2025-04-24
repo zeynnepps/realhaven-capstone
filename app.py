@@ -5,7 +5,15 @@ import streamlit as st
 st.set_page_config(page_title="RealHaven – Al-Powered Estate Search Platform", layout="centered")
 
 #Logo
-st.image("logo.png", width=150, layout="centered")
+st.markdown(
+    """
+    <div style="text-align: center;">
+        <img src="logo.png" width="150">
+        <h1 style="margin-top: 10px;">RealHaven</h1>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # --- Title ---
 st.title("🏡 RealHaven – Your Smart Real Estate Assistant")
