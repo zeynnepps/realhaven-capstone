@@ -1,0 +1,35 @@
+import streamlit as st
+
+# Page config
+st.set_page_config(page_title="RealHaven – Al-Powered Estate Search Platform", layout="centered")
+
+# --- Title ---
+st.title("🏡 RealHaven – Your Smart Real Estate Assistant")
+
+# --- Project Description ---
+st.markdown("""
+📍 Built for San Jose – Tailored specifically to the local market
+
+🤖 AI-Powered Chatbot – Guides users through property search naturally
+
+🎯 Smart Filtering – Matches listings to user needs & preferences
+
+📊 Visual Insights – Graphs help compare prices and features
+
+🏷️ Detailed Property Views – See kitchen, living room, and more
+
+🚀 Simplified Experience – Makes home search faster and more informed      
+""")
+
+# --- Meet the Team ---
+st.subheader("👥 Meet the Team")
+
+team_members = [
+    {"name": "Zeynep Salihoglu", "linkedin": "http://linkedin.com/in/zeynep-salihoglu"},
+    {"name": "Vyshnavi Akkapalli", "linkedin": "http://linkedin.com/in/vyshnavi-akkapalli-484a5b208"},
+    {"name": "Raghav Venkata Krishna", "linkedin": "http://www.linkedin.com/in/raghav-katari-786899306"},
+    {"name": "Hassan Ahmed", "linkedin": ""},
+]
+
+for member in team_members:
+    st.markdown(f"- [{member['name']}]({member['linkedin']})")
