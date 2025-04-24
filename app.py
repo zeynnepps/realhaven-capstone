@@ -4,11 +4,12 @@ import streamlit as st
 # Page config
 st.set_page_config(page_title="RealHaven – Al-Powered Estate Search Platform", layout="centered")
 
+st.markdown("<br><br><br><br><br>", unsafe_allow_html=True)
+
 #Logo
-col1, col2, col3 = st.columns([1, 2, 1])  # middle column is wider
+col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    st.image("logo.png", width=150)
-    st.markdown("<h1 style='text-align: center;'>RealHaven</h1>", unsafe_allow_html=True)
+    st.image("logo-modified.png", width=150)
 
 # --- Title ---
 st.title("🏡 RealHaven – Your Smart Real Estate Assistant")
@@ -46,7 +47,7 @@ def set_bg():
         f"""
         <style>
         .stApp {{
-            background-image: url("https://cdn.corporatefinanceinstitute.com/assets/real-estate.jpeg");
+            background-image: url("https://img.freepik.com/premium-photo/gradient-aquatic-rough-abstract-background-design_851755-330071.jpg?semt=ais_hybrid&w=740");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
