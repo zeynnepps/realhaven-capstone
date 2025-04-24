@@ -1,10 +1,11 @@
 import streamlit as st
 
-#Logo
-st.image("logo.jpeg", width=150)  # Adjust width as needed
 
 # Page config
 st.set_page_config(page_title="RealHaven – Al-Powered Estate Search Platform", layout="centered")
+
+#Logo
+st.image("logo.jpeg", width=150)  # Adjust width as needed
 
 # --- Title ---
 st.title("🏡 RealHaven – Your Smart Real Estate Assistant")
