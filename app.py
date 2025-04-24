@@ -47,7 +47,7 @@ def set_bg():
         f"""
         <style>
         .stApp {{
-            background-image: url("https://img.freepik.com/premium-photo/gradient-aquatic-rough-abstract-background-design_851755-330071.jpg?semt=ais_hybrid&w=740");
+            background-image: url("https://t4.ftcdn.net/jpg/01/36/56/49/360_F_136564967_2F3S1E04Wb4durBhjwyDaLefdeo6udnn.jpg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
