@@ -43,7 +43,7 @@ def set_bg():
         f"""
         <style>
         .stApp {{
-            background-image: url("https://www.google.com/imgres?q=webpage%20background%20sky&imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F912110%2Fpexels-photo-912110.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-elia-clerici-282848-912110.jpg%26fm%3Djpg&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fsky%2520background%2F&docid=HJ2rcpasoJqA2M&tbnid=42upTsvmPqO-YM&vet=12ahUKEwie8frA0PGMAxWOweYEHQeMELMQM3oECBoQAA..i&w=6000&h=4000&hcb=2&ved=2ahUKEwie8frA0PGMAxWOweYEHQeMELMQM3oECBoQAA");
+            background-image: url("https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -55,4 +55,3 @@ def set_bg():
     )
 
 set_bg()
-
