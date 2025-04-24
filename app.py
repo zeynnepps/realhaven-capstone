@@ -42,20 +42,20 @@ team_members = [
 for member in team_members:
     st.markdown(f"- [{member['name']}]({member['linkedin']})")
 
-def set_bg():
-    st.markdown(
-        f"""
-        <style>
-        .stApp {{
-            background-image: url("https://t4.ftcdn.net/jpg/01/36/56/49/360_F_136564967_2F3S1E04Wb4durBhjwyDaLefdeo6udnn.jpg");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }}
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
+# def set_bg():
+#     st.markdown(
+#         f"""
+#         <style>
+#         .stApp {{
+#             background-image: url("https://t4.ftcdn.net/jpg/01/36/56/49/360_F_136564967_2F3S1E04Wb4durBhjwyDaLefdeo6udnn.jpg");
+#             background-size: cover;
+#             background-position: center;
+#             background-repeat: no-repeat;
+#             background-attachment: fixed;
+#         }}
+#         </style>
+#         """,
+#         unsafe_allow_html=True
+#     )
 
-set_bg()
+# set_bg()
