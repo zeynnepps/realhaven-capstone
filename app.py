@@ -5,7 +5,7 @@ import streamlit as st
 st.set_page_config(page_title="RealHaven – Al-Powered Estate Search Platform", layout="centered")
 
 #Logo
-st.image("logo.jpeg", width=150)  # Adjust width as needed
+st.image("logo.png", width=150, layout="centered")
 
 # --- Title ---
 st.title("🏡 RealHaven – Your Smart Real Estate Assistant")
@@ -43,7 +43,7 @@ def set_bg():
         f"""
         <style>
         .stApp {{
-            background-image: url("https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg");
+            background-image: url("https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
