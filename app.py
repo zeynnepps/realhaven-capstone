@@ -9,7 +9,7 @@ with col2:
     st.markdown(
         """
         <div style="text-align: center;">
-            <img src="https://github.com/zeynnepps/realhaven-capstone/blob/master/logo-modified.png" width="150">
+            <img src="https://github.com/zeynnepps/realhaven-capstone/blob/master/logo-modified.png?raw=true" width="150">
             <h1 style="margin-top: 10px;">RealHaven</h1>
         </div>
         """,
