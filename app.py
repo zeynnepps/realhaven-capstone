@@ -6,19 +6,13 @@ st.set_page_config(page_title="RealHaven – AI-Powered Estate Search Platform",
 
 st.markdown("<br><br><br>", unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns([1, 2, 1])
+st.markdown("<br><br><br>", unsafe_allow_html=True)
 
-# Add logo and title in the center column
+col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    st.markdown(
-        """
-        <div style="text-align: center;">
-            <img src="logo-modified.png" width="150">
-            <h1 style="margin-top: 10px;">RealHaven</h1>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+    st.image("logo-modified.png", width=150)
+    st.markdown("<h1 style='text-align: center;'>RealHaven</h1>", unsafe_allow_html=True)
+
 
 # --- Project Description ---
 st.markdown("""
