@@ -77,19 +77,17 @@ team_members = [
     {"name": "Zeynep Salihoglu", "linkedin": "http://linkedin.com/in/zeynep-salihoglu"},
     {"name": "Vyshnavi Akkapalli", "linkedin": "http://linkedin.com/in/vyshnavi-akkapalli-484a5b208"},
     {"name": "Raghav Venkata Krishna", "linkedin": "http://www.linkedin.com/in/raghav-katari-786899306"},
-    {"name": "Hassan Ahmed", "linkedin": ""},
+    {"name": "Hassan Ahmed", "linkedin": "https://www.linkedin.com/in/hassan-ahmed-siddiqui-aa22a51a0"},
 ]
 for member in team_members:
     st.markdown(f"- [{member['name']}]({member['linkedin']})" if member["linkedin"] else f"- {member['name']}")
 
-def set_bg_local(image_file):
-    with open(image_file, "rb") as image:
-        encoded_string = base64.b64encode(image.read()).decode()
+def set_bg():
     st.markdown(
         f"""
         <style>
         .stApp {{
-            background-image: url("data:image/jpeg;base64,{encoded_string}");
+            background-image: url("https://cms.nar.realtor/sites/default/files/downloadable/commercial_primary_img_1300x867-2023-01-30.jpg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -100,4 +98,4 @@ def set_bg_local(image_file):
         unsafe_allow_html=True
     )
 
-set_bg_local("image.jpeg")
+set_bg()
