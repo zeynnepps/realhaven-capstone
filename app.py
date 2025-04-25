@@ -86,7 +86,7 @@ def set_bg():
         f"""
         <style>
         .stApp {{
-            background-image: url("blob:https://web.whatsapp.com/a478f9b3-dc2e-417c-b194-f7e6334b30a8");
+            background-image: url("/Users/zeynepsalihoglu/Desktop/WEBSITE/image.jpeg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
