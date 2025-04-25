@@ -80,3 +80,21 @@ team_members = [
 ]
 for member in team_members:
     st.markdown(f"- [{member['name']}]({member['linkedin']})" if member["linkedin"] else f"- {member['name']}")
+
+def set_bg():
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background-image: url("blob:https://web.whatsapp.com/a478f9b3-dc2e-417c-b194-f7e6334b30a8");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+set_bg()
