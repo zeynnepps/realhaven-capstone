@@ -1,4 +1,5 @@
 import streamlit as st
+import base64
 
 # --- Page Configuration ---
 st.set_page_config(page_title="RealHaven – AI-Powered Estate Search Platform", layout="centered")
@@ -81,12 +82,14 @@ team_members = [
 for member in team_members:
     st.markdown(f"- [{member['name']}]({member['linkedin']})" if member["linkedin"] else f"- {member['name']}")
 
-def set_bg():
+def set_bg_local(image_file):
+    with open(image_file, "rb") as image:
+        encoded_string = base64.b64encode(image.read()).decode()
     st.markdown(
         f"""
         <style>
         .stApp {{
-            background-image: url("/Users/zeynepsalihoglu/Desktop/WEBSITE/image.jpeg");
+            background-image: url("data:image/jpeg;base64,{encoded_string}");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -97,4 +100,4 @@ def set_bg():
         unsafe_allow_html=True
     )
 
-set_bg()
+set_bg_local("image.jpeg")
